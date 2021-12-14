@@ -2,8 +2,8 @@
 
 | Kode | URL |
 | ---- | --- |
-| Production | https://api.nmwclinic.co.id/api/pos/pos/get-item |
-| Sandbox | https://api-sandbox.nmwclinic.co.id/api/pos/pos/get-item |
+| Production | https://api.nmwclinic.co.id/api/pos/pos/insert-stock |
+| Sandbox | https://api-sandbox.nmwclinic.co.id/api/pos/pos/insert-stock |
 
 ### METHODE
 
