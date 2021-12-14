@@ -38,83 +38,83 @@ echo $response;
 
 | Field | Type | Desc | 
 | ----- | ---- | ---- |
-| sumber | 'nullable' | Name Item/Name Products |
-| noTransaksi | 'nullable' |
-| users | 'numeric' |
-| karyawan | 'nullable' |
-| uraian | 'nullable' |
-| catatan | 'nullable' |
-| totalTransaksi | 'numeric' |
-| createStock | 'numeric' |
-| modifyStock | 'numeric' |
-| totalKas | 'numeric' |
-| totalKartuDebit | 'numeric' |
-| totalKartuKredit | 'numeric' |
-| noKartuDebit | 'numeric' |
-| namaDebit | 'nullable' |
-| bankDebit | 'nullable' |
-| noKartuKredit | 'nullable' |
-| namaKredit | 'nullable' |
-| bankKredit | 'nullable' |
-| totalBayar | 'numeric' |
-| totalSisa  | 'numeric' |
-| sudpid | 'nullable' |
-| totalDp | 'numeric' |
-| totalTransfer | 'numeric' |
-| bankTransfer | 'nullable' |
-| namaTransfer | 'nullable' |
-| noTransfer | 'nullable' |
-| totalVoucher | 'nullable' |
-| noVoucher | 'nullable' |
-| programVoucher | 'nullable' |
-| namaVoucher | 'nullable' |
-| doctor | 'nullable' |
-| branch | 'nullable' |
-| tidakBawaKartu | 'numeric' |
-| kreditJumlahCicilan | 'numeric' |
-| kreditCicilanPerbulan | 'numeric' |
-| jenisKredit | 'nullable' |
-| jenisDebit | 'nullable' |
-| sudp1 | 'numeric' |
-| sudpid2 | 'nullable' |
-| sudp2 | 'numeric' |
-| sudpid3 | 'nullable' |
-| sudp3 | 'numeric' |
-| potonganStok | 'nullable' |
-| rekamMedis | 'nullable' |
-| dariMedikaApps | 'nullable' |
-| totalMedika | 'nullable' |
-| noReffMedika | 'nullable' |
-| statusKirim | 'nullable' |
-| address | 'nullable' |
-| totalTada | 'nullable' |
-| teman | 'nullable' |
-| jenisMerchant | 'nullable' |
-| noMerchant | 'nullable' |
-| jumlahMerchant | 'nullable' |
-| noIP | 'nullable' |
-| biayaKirim | 'nullable' |
-| konsinyasi | 'nullable' |
-| nilaiPajak | 'nullable' |
-| jenisOnline | 'nullable' |
-| attention | 'nullable' |
-| fakturPajak | 'nullable' |
-| rekHutang | 'nullable' |
-| admin1 | 'nullable' |
-| admin2 | 'nullable' |
-| konul | 'nullable' |
-| konsulKemarin | 'nullable' |
-| sunodkr | 'nullable' |
-| admin3 | 'nullable' |
-| insider | 'nullable' |
-| jenisDp | 'nullable' |
-| adminFU | 'nullable' |
-| farmasi | 'nullable' |
-| farmasiAsisten | 'nullable' |
-| jenisFu | 'nullable' |
-| tanggalFu | 'date' |
-| suIdFu | 'nullable' |
-| salesMarketing | 'nullable' |
+| sumber | 'nullable' | Sumber |
+| noTransaksi | 'nullable' | Nomer Transaksi |
+| users | 'numeric' | Users |
+| karyawan | 'nullable' | Karyawan |
+| uraian | 'nullable' | Uraian Stock |
+| catatan | 'nullable' | Catatan Stock |
+| totalTransaksi | 'numeric' | Total Transaksi |
+| createStock | 'numeric' | Create Stock |
+| modifyStock | 'numeric' | Modify Stock |
+| totalKas | 'numeric' | Total Kas|
+| totalKartuDebit | 'numeric' | Total Kartu Debit |
+| totalKartuKredit | 'numeric' | Total Kartu Kredit |
+| noKartuDebit | 'numeric' | Nomer Kartu Debit |
+| namaDebit | 'nullable' | Nama Debit |
+| bankDebit | 'nullable' | Bank Debit |
+| noKartuKredit | 'nullable' | Nomer Kartu Kredit |
+| namaKredit | 'nullable' | Nama Kredit |
+| bankKredit | 'nullable' | Bank Kredit |
+| totalBayar | 'numeric' | Total Bayar |
+| totalSisa  | 'numeric' | Total Sisa |
+| sudpid | 'nullable' | SUDPID |
+| totalDp | 'numeric' | Total DP |
+| totalTransfer | 'numeric' | Total Transfer |
+| bankTransfer | 'nullable' | Transfer Bank |
+| namaTransfer | 'nullable' | Nama Transfer |
+| noTransfer | 'nullable' | Nomer Transfer |
+| totalVoucher | 'nullable' | Total Voucher |
+| noVoucher | 'nullable' | Nomer Voucher |
+| programVoucher | 'nullable' | Program Voucher |
+| namaVoucher | 'nullable' | Nama Voucher |
+| doctor | 'nullable' | Dokter |
+| branch | 'nullable' | Branch |
+| tidakBawaKartu | 'numeric' | Tidak Bawa Kartu |
+| kreditJumlahCicilan | 'numeric' | Kredit Jumlah Cicilan |
+| kreditCicilanPerbulan | 'numeric' | Kredit Cicilan Perbulan |
+| jenisKredit | 'nullable' | Jenis Kredit |
+| jenisDebit | 'nullable' | Jenis Debit |
+| sudp1 | 'numeric' | SUDP1 |
+| sudpid2 | 'nullable' | SUDPID2 |
+| sudp2 | 'numeric' | SUDP2 |
+| sudpid3 | 'nullable' | SUDPID3 |
+| sudp3 | 'numeric' | SUDP3 |
+| potonganStok | 'nullable' | Potongan Stock |
+| rekamMedis | 'nullable' | Rekam Medis |
+| dariMedikaApps | 'nullable' | Dari Medika Apps |
+| totalMedika | 'nullable' | Total Medika |
+| noReffMedika | 'nullable' | No Reff Medika |
+| statusKirim | 'nullable' | Status Kirim |
+| address | 'nullable' | Address |
+| totalTada | 'nullable' | Total Tada |
+| teman | 'nullable' | Teman |
+| jenisMerchant | 'nullable' | Jenis Merchant |
+| noMerchant | 'nullable' | Nomer Merchant |
+| jumlahMerchant | 'nullable' | Jumlah Merchant |
+| noIP | 'nullable' | Nomer IP |
+| biayaKirim | 'nullable' | Biaya Kirim |
+| konsinyasi | 'nullable' | Konsinyasi |
+| nilaiPajak | 'nullable' | Nilai Pajak |
+| jenisOnline | 'nullable' | Jenis Online |
+| attention | 'nullable' | Attention |
+| fakturPajak | 'nullable' | Faktur Pajak |
+| rekHutang | 'nullable' | Rekening Hutang |
+| admin1 | 'nullable' | Admin 1 |
+| admin2 | 'nullable' | Admin 2 |
+| konul | 'nullable' | Konul |
+| konsulKemarin | 'nullable' | Konsul Kemarin |
+| sunodkr | 'nullable' | SUNODKR |
+| admin3 | 'nullable' | Admin3 |
+| insider | 'nullable' | Insider |
+| jenisDp | 'nullable' | Jenis DP |
+| adminFU | 'nullable' | Admin FU |
+| farmasi | 'nullable' | Farmasi |
+| farmasiAsisten | 'nullable' | Farmasi Asisten |
+| jenisFu | 'nullable' | Jenis FU |
+| tanggalFu | 'date' | Tanggal FU |
+| suIdFu | 'nullable' | SUIDFU |
+| salesMarketing | 'nullable' | Sales Marketing | 
 
 ### RESPONSE (SUCESS)
 
